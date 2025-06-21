@@ -12,12 +12,14 @@ const Footer = () => {
             <h5 className="footer-title mb-3">Get in Touch</h5>
             <ul className="footer-contact list-unstyled">
               <li>
-                <FaMapMarkerAlt className="footer-icon" />
-
-                <span className="footer-address">
-                  18, Indira Nagar, Gokulam Colony,P.N. Pudur, Coimbatore - 641
-                  041.
-                </span>
+                <p className="footer-address ">
+                  <FaMapMarkerAlt className="footer-icon pr-2 " />
+                  18, Indira Nagar, Gokulam Colony,
+                  <span className="line-break">
+                    {" "}
+                    P.N. Pudur, Coimbatore - 641 041.
+                  </span>
+                </p>
               </li>
               <li>
                 <FaPhoneAlt className="footer-icon" />

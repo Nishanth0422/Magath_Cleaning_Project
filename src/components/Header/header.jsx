@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./header.css";
-import logo from '../../assets/images/magath_logo.png';
+import logo from '../../assets/images/logo.png';
 import { Link } from "react-router-dom";
 
 function Header() {
@@ -11,7 +11,7 @@ function Header() {
   };
 
   return (
-    <div className="container-fluid header py-3 position-relative">
+    <div className=" header  ">
       <div className="row align-items-center">
         {/* Logo */}
        <div className="col-6 d-flex align-items-center">
@@ -21,15 +21,15 @@ function Header() {
 
 
         {/* Desktop Nav */}
-        <div className="col-6 d-none d-md-block text-end nav-menu">
-          <nav>
-            <ul className="nav-list d-flex flex-row justify-content-end align-items-center gap-4 list-unstyled m-0 p-0">
-              <li><Link to="/">Home</Link></li>
-              <li><Link to="/about">About us</Link></li>
-              <li><Link to="/services">Services</Link></li>
-              <li><Link to="/contact">Contact</Link></li>
-            </ul>
-          </nav>
+        <div className="col-6 d-none d-md-block   nav-menu">
+         <nav>
+        <ul className="nav-list d-flex flex-row justify-content-end align-items-center gap-4 list-unstyled m-0 p-3">
+          <li><Link to="/">Home</Link></li>
+          <li><Link to="/about">About us</Link></li>
+          <li><Link to="/services">Services</Link></li>
+          <li><Link to="/contact">Contact</Link></li>
+        </ul>
+      </nav>
         </div>
 
         {/* Mobile Toggle Button */}
