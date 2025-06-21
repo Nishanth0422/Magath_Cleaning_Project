@@ -48,7 +48,7 @@ function About() {
             src={founderImg}
             alt="Founder"
             className="img-fluid rounded-circle shadow-sm mb-3 founder-img"
-            style={{ width: "550px", height: "550px", objectFit: "cover" }}
+            style={{ width: "450px", height: "450px", objectFit: "cover" }}
           />
           <h5 className="fw-bold mt-2 fs-4">P. RANJITHKUMAR</h5>
           <p className="text-muted">MA (Public Administration) - Founder</p>
