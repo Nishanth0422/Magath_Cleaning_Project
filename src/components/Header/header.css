@@ -1,0 +1,106 @@
+.Magath {
+  cursor: pointer;
+}
+
+.nav-menu a {
+  cursor: pointer;
+  text-decoration: none;
+  color: #000;
+  font-weight: 500;
+  text-align: right;
+}
+.logo {
+  height: 40px;
+  width: 100px;
+}
+
+
+.nav-menu a:hover,
+.Magath:hover {
+  color: #e47b25;
+}
+.menu-toggle {
+  font-size: 28px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+@media (max-width: 576px) {
+  .Magath {
+    font-size: 14px;
+    font-weight: bold;
+    white-space: nowrap;
+    
+  }
+}
+@media (max-width: 992px) {
+  .Magath {
+    font-size: 16px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}
+
+/* ☰ Toggle Button */
+.menu-toggle {
+  font-size: 1.8rem;
+  background: none;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
+
+/* Mobile Slide-in Drawer Menu */
+.mobile-side-menu {
+  position: fixed;
+  top: 10px;
+  right: -300px;
+  width: 250px;
+  background-color: #ffffff;
+  height: 100vh;
+  z-index: 9999;
+  padding: 2rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Slide-in effect when open */
+.mobile-side-menu.open {
+  right: 0;
+}
+
+/* Close (✕) Button */
+.close-menu {
+  align-self: flex-end;
+}
+
+/* Mobile Navigation Links */
+.nav-list {
+  list-style: none;
+  gap: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-list li a {
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+}
+
+.mobile-side-menu .nav-list li a:hover {
+  color: #ff9800;
+}
+
+
+
+
+
+
+
+
+
+

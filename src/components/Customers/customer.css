@@ -1,0 +1,39 @@
+.section-title {
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: #e47b25;
+}
+.customer-card {
+  border-radius: 15px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+}
+
+.customer-img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.customer-name {
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #333;
+}
+
+.customer-review {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 1rem 0;
+}
+
+.customer-rating {
+  font-size: 1.3rem;
+  color: #ffc107;
+}
+@media (max-width: 576px) {
+  .section-title {
+    font-size: 30px;
+    font-weight: bold;
+  }
+}

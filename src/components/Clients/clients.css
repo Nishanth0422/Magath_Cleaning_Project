@@ -1,0 +1,49 @@
+.client-section {
+  padding: 3rem 1rem;
+  overflow: hidden;
+}
+
+.client-title {
+  text-align: center;
+  font-size: 1.8rem;
+  color: #ff9800;
+  margin-bottom: 2rem;
+}
+.client-track {
+  display: flex;
+  animation: scrollClients 50s linear infinite;
+  width: calc(300px * 12); 
+}
+
+.client-card {
+  flex: 0 0 300px;
+  text-align: center;
+  margin-right: 1.5rem;
+  cursor: pointer;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.05);
+}
+.client-card:hover {
+  transform: translateY(-10px) scale(1.02);
+  box-shadow: 0 15px 30px rgba(206, 140, 65, 0.4),
+    0 0 15px rgba(255, 255, 0, 0.2);
+}
+
+.client-card img {
+  width: 80px;
+  height: 80px;
+  border-radius: 3px;
+  margin-bottom: 0.5rem;
+}
+
+.client-card p {
+  font-size: 0.95rem;
+  font-weight: 500;
+  color: #333;
+}
+
+@keyframes scrollClients {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-50%); }
+}

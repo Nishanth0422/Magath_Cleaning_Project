@@ -1,0 +1,16 @@
+
+ .background-color {
+  min-height: 100vh;
+  background: linear-gradient(270deg, #efd0a1, #ccf3bf, #efd0a1);
+  background-size: 600% 600%;
+  animation: gradientShift 8s ease infinite;
+}
+
+@keyframes gradientShift {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+} 
+
+
+
