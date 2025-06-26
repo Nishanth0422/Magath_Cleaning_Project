@@ -8,7 +8,6 @@ const Footer = () => {
     <footer className="footer-section py-5">
       <div className="container">
         <div className="row align-items-center text-center text-md-start">
-          
           {/* LEFT: Logo & Brand */}
           <div className="col-md-6 mb-4 mb-md-0 d-flex flex-column align-items-center align-items-md-start">
             <img src={logo} alt="Logo" className="footer-logo mb-2" />
@@ -33,11 +32,32 @@ const Footer = () => {
                 <FaPhoneAlt className="footer-icon" />
                 <a href="tel:+916381414174">Mobile Number : +91 63814 14174</a>
               </li>
-              <li>
-                <FaEnvelope className="footer-icon" />
-                <a href="mailto:kousiranjith16@gmail.com">
-                  E-mail : kousiranjith16@gmail.com
-                </a>
+              <li
+                style={{
+                  display: "flex",
+                  alignItems: "flex-start",
+                  marginBottom: "10px",
+                }}
+              >
+                <FaEnvelope
+                  className="footer-icon"
+                  style={{ marginTop: "4px" }}
+                />
+                <div style={{ display: "flex" }}>
+                  <span>E-mail:</span>
+                  <div style={{ marginLeft: "5px" }}>
+                    <div>
+                      <a href="mailto:kousiranjith16@gmail.com">
+                        kousiranjith16@gmail.com
+                      </a>
+                    </div>
+                    <div style={{ paddingLeft: "0.5em" }}>
+                      <a href="mailto:magath.mcs@gmail.com">
+                        magath.mcs@gmail.com
+                      </a>
+                    </div>
+                  </div>
+                </div>
               </li>
             </ul>
           </div>
